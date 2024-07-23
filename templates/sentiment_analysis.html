@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sentiment Analysis</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5">Sentiment Analysis</h1>
+    <form method="post" action="/sentiment_analysis">
+      <div class="form-group">
+        <label for="text">Text:</label>
+        <textarea class="form-control" id="text" name="text" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Analyze</button>
+    </form>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quantum Bounce Calculation</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5">Quantum Bounce Calculation</h1>
+    <form method="post" action="/quantum_bounce">
+      <div class="form-group">
+        <label for="critical_density">Critical Density:</label>
+        <input type="text" class="form-control" id="critical_density" name="critical_density" required>
+      </div>
+      <div class="form-group">
+        <label for="energy_density">Energy Density:</label>
+        <input type="text" class="form-control" id="energy_density" name="energy_density" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Calculate</button>
+    </form>
+  </div>
+</body>
+</html>
+
